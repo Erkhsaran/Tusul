@@ -1,0 +1,40 @@
+@import "color";
+
+.main_btn {
+  padding: 20px 30px;
+  background-color: $brown !important;
+  border-radius: 5px;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  max-width: 150px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.outline_btn {
+  padding: 15px 40px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid white;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.outline_btn ion-icon {
+  font-size: 32px;
+  margin-right: 10px;
+}
+
+@media (max-width: 440px) {
+  .main_btn {
+    padding: 10px 20px;
+  }
+
+  .outline_btn {
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,15 @@
+$gray: 565659;
+$brown: #87341c;
+$dark: #323232;
+$gray: #69686c;
+$red: red;
+$lightGray: #ddddde;
+
+.custom_shadow {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.text-brown {
+  color: $brown;
+}

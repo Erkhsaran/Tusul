@@ -1,0 +1,45 @@
+@import "../variables/color";
+@import "../variables/textStyle";
+
+.discover-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+  }
+  
+  .discover_img {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: red;
+      width: 100%;
+      height: 100%;
+    }
+  }
+@media (max-width: 440px) {
+    .discover-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .discover_img {
+      display: none !important;
+    }
+  
+    .footer-left {
+      width: 100% !important;
+    }
+    .footer-right {
+      width: 60%;
+    }
+  
+    .main_btn {
+      padding: 10px 20px;
+    }
+  
+    .outline_btn {
+      padding: 10px 20px;
+    }
+  }
+  
